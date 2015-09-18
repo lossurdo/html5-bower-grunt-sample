@@ -1,0 +1,12 @@
+{
+  "name": "html5-bower-grunt-sample",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-connect": "~0.11.2"
+  },
+  "description": "HTML5, Bower & Grunt start project",
+  "main": "Gruntfile.js",
+  "author": "Rafael Lossurdo <lossurdo@gmail.com>",
+  "license": "MIT"
+}
