@@ -9,6 +9,6 @@ $ npm install
 $ grunt
 ```
 
-Open your browser and type: http://localhost:9000
+Open your browser and type: [http://localhost:9000](http://localhost:9000)
 
 Done!
