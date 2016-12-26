@@ -1,5 +1,5 @@
 # html5-bower-grunt-sample
-HTML5, Bower &amp; Grunt start project
+HTML5, Bootstrap, Angular &amp; Grunt start project
 
 Clone this repository and run these commands:
 
