@@ -1,12 +1,72 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Welcome!</title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	<h1>HTML5, Bower & Grunt Start Project</h1>
-</body>
+<html lang="en" ng-app="MyModule">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HTML5, Boostrap, Angular & Grunt start project</title>
+
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<script src="node_modules/angular/angular.min.js" type="text/javascript"></script>
+		<script src="node_modules/angular-route/angular-route.min.js" type="text/javascript"></script>
+
+		<script src="js/app.js" type="text/javascript"></script>
+		<script src="js/myController.js" type="text/javascript"></script>
+	</head>	
+	<body ng-controller="MyController">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1>HTML5, Boostrap, Angular & Grunt start project</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h3>{{hello}}</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<my-directive text="This is my angular directive from app.js!"></my-directive>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">			
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<a class="btn btn-default" href="#!/one" role="button">Partial One</a>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<a class="btn btn-default" href="#!/two" role="button">Partial Two</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div ng-view></div>
+				</div>
+			</div>
+
+		</div> <!-- end of container -->
+
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
 </html>

@@ -4,7 +4,6 @@ HTML5, Bower &amp; Grunt start project
 Clone this repository and run these commands:
 
 ```
-$ bower install
 $ npm install
 $ grunt
 ```
